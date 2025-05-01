@@ -25,5 +25,3 @@ The tool uses Markov Chain mathematics to model real-world content production sc
 - Task revisions (e.g., client feedback cycles)
 - Step-back revisions (e.g., dependencies with previous tasks)
 
-# content-pipeline-optimizer
- 
