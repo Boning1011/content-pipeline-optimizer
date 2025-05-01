@@ -25,3 +25,41 @@ The tool uses Markov Chain mathematics to model real-world content production sc
 - Task revisions (e.g., client feedback cycles)
 - Step-back revisions (e.g., dependencies with previous tasks)
 
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/content-pipeline-optimizer.git
+cd content-pipeline-optimizer
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Application
+
+1. Start the Streamlit app:
+```bash
+streamlit run scripts/pipeline_simulator.py
+```
+
+2. Open your browser and navigate to the URL shown in the terminal (typically http://localhost:8501)
+
+### First-Time Setup
+
+1. Adjust the number of tasks in your pipeline (3-15 tasks)
+2. Set your mistake rates:
+   - Type 0: Complete restart probability
+   - Type 1: Current task revision probability
+   - Type 2: Step-back revision probability
+3. Optionally set custom time costs for each task
+4. Explore the visualizations and metrics to understand your pipeline's efficiency
+
